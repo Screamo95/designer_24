@@ -98,3 +98,47 @@
 .about-txt:last-child {
   margin-bottom: 0;
 }
+
+/* Skills */
+.skills {
+  padding-top: 88px;
+  padding-bottom: 110px;
+}
+.skills-title {
+  font-family: var(--bold);
+  font-size: 34px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 63px;
+}
+.skills-subtitle {
+  font-family: var(--medium);
+  font-size: 18px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 89px;
+}
+.skills__box {
+  display: grid;
+  grid-template-columns: repeat(4, 167px);
+  gap: 90px;
+  justify-content: center;
+}
+.skills__item {
+  text-align: center;
+}
+.skills__item-img {
+  margin-bottom: 22px;
+}
+.skills__item-name {
+  font-family: var(--bold);
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 38px;
+}
+.skills__item-name_smoll {
+  margin-bottom: 51px;
+}
+.skills__item-stars {
+}
