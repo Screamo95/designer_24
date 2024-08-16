@@ -1,0 +1,10 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #070707;
+  --medium: Gil-medium;
+  --bold: Gil-bold;
+}
