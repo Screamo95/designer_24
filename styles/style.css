@@ -11,7 +11,7 @@
 
 /* Header */
 .header {
-  padding-bottom: 104px;
+  padding-bottom: 102px;
   padding-top: 33px;
 }
 .header__container {
@@ -70,4 +70,31 @@
   text-decoration: none;
 }
 .header-photo {
+}
+
+/* About */
+.about {
+  padding-top: 118px;
+  padding-bottom: 111px;
+  background: #f6f6f6;
+  text-align: center;
+}
+.about-title {
+  font-family: var(--bold);
+  font-size: 34px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 26px;
+}
+.about-txt {
+  font-family: var(--medium);
+  font-size: 18px;
+  text-align: center;
+  color: var(--black);
+  max-width: 450px;
+  margin: 0 auto 44px;
+  line-height: 120%;
+}
+.about-txt:last-child {
+  margin-bottom: 0;
 }
