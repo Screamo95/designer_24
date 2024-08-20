@@ -10,6 +10,9 @@
 }
 
 /* Header */
+.header__mobile {
+  display: none;
+}
 .header {
   padding-bottom: 102px;
   padding-top: 33px;
@@ -70,6 +73,121 @@
   text-decoration: none;
 }
 .header-photo {
+}
+
+.burger__open {
+  cursor: pointer;
+  width: 33px;
+  height: 19px;
+  margin-top: 14px;
+}
+.burger__menu {
+  width: 375px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -375px;
+  background-color: #fff;
+  padding-top: 65px;
+  padding-left: 25px;
+}
+.burger__menu-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.burger__menu-open {
+  left: 0;
+  animation: burgerOpenX 0.5s linear;
+}
+.burger__menu-close {
+  left: -375px;
+  animation: burgerCloseX 0.5s linear;
+}
+.burger__nav-link {
+  font-family: var(--bold);
+  font-size: 34px;
+  color: #828282;
+  margin-bottom: 56px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.burger__nav-link:hover {
+  color: #090909;
+}
+.burger__close {
+  cursor: pointer;
+  margin-right: 0px;
+  margin-bottom: 280px;
+}
+@keyframes burgerOpenX {
+  0% {
+    left: -375px;
+  }
+  50% {
+    left: -187px;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes burgerCloseX {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -187px;
+  }
+  100% {
+    left: -375px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__mobile {
+    display: block;
+    padding-top: 55px;
+    padding-bottom: 83px;
+  }
+  .header {
+    display: none;
+  }
+  .header__container_mobile {
+    max-width: 317px;
+    margin: 0 auto;
+  }
+  .header__content {
+    margin-bottom: 40.5px;
+  }
+  .header__content-txt {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .header__content-lang {
+    padding-top: 0px;
+    padding-right: 0px;
+    transform: rotate(90deg);
+    font-size: 34px;
+  }
+  .burger__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: -29px;
+  }
+
+
+  .about {
+    display: none;
+  }
+  .skills {
+    display: none;
+  }
+  .portfolio {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
 }
 
 /* About */
