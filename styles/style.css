@@ -72,8 +72,6 @@
   cursor: pointer;
   text-decoration: none;
 }
-.header-photo {
-}
 
 .burger__open {
   cursor: pointer;
@@ -288,8 +286,6 @@
 .skills__item-name_smoll {
   margin-bottom: 51px;
 }
-.skills__item-stars {
-}
 
 @media screen and (max-width: 1000px) {
   .skills__box {
@@ -415,13 +411,14 @@
   color: #fff;
   margin-bottom: 86px;
 }
+.footer-btn_ru {
+  font-size: 14px;
+}
 .footer__social {
   display: flex;
   gap: 61px;
   margin-bottom: 42px;
   justify-content: center;
-}
-.footer__social-icon {
 }
 .footer-back {
   font-family: var(--medium);

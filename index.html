@@ -5,33 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/fonts.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style.min.css">
   <title>Denis Novik</title>
 </head>
 <body>
 
   <!-- Header -->
-  <header class="header">
+  <header class="header" id="home">
     <div class="header__container">
       <div class="header__nav">
-        <a href="#" class="header__nav-link">Home</a>
-        <a href="#" class="header__nav-link">About me</a>
-        <a href="#" class="header__nav-link">Skills</a>
-        <a href="#" class="header__nav-link">Portfolio</a>
-        <a href="#" class="header__nav-link">Contacts</a>
+        <a href="#home" class="header__nav-link">Home</a>
+        <a href="#about" class="header__nav-link">About me</a>
+        <a href="#skills" class="header__nav-link">Skills</a>
+        <a href="#portfolio" class="header__nav-link">Portfolio</a>
+        <a href="#footer" class="header__nav-link">Contacts</a>
       </div>
       <img src="img/header_line.svg" class="header__line"></img>
       <div class="header__content">
         <h1 class="header__content-title">Denis Novik</h1>
         <p class="header__content-txt">UX | UI designer <br> 24 years old, Minsk</p>
-        <h5 class="header__content-lang"><a href="#" class="header__content-lang_passive">RU</a> | ENG</h5>
+        <h5 class="header__content-lang"><a href="pages/index_ru.html" class="header__content-lang_passive">RU</a> | ENG</h5>
       </div>
       <img src="img/header_photo.png" class="header-photo">
     </div>
   </header>
 
   <!-- Header Mobile -->
-  <header class="header__mobile">
+  <header class="header__mobile" id="home_mobile">
     <div class="header__container_mobile">
       <div class="header__content">
         <div class="header__left">
@@ -42,25 +42,25 @@
         <div class="burger__menu">
           <div class="burger__menu-inner">
             <ul class="burger__nav">
-              <a href="#" class="burger__nav-link">
+              <a href="#home_mobile" class="burger__nav-link">
                 <li class="burger__nav-link">Home</li>
               </a>
-              <a href="#" class="burger__nav-link">
+              <a href="#about" class="burger__nav-link">
                 <li class="burger__nav-link">About me</li>
               </a>
-              <a href="#" class="burger__nav-link">
+              <a href="#skills" class="burger__nav-link">
                 <li class="burger__nav-link">Skills</li>
               </a>
-              <a href="#" class="burger__nav-link">
+              <a href="#portfolio" class="burger__nav-link">
                 <li class="burger__nav-link">Portfolio</li>
               </a>
-              <a href="#" class="burger__nav-link">
+              <a href="#footer" class="burger__nav-link">
                 <li class="burger__nav-link">Contacts</li>
               </a>
             </ul>
             <div class="burger__info">
               <img src="img/header_close.svg" class="burger__close">
-              <h5 class="header__content-lang"><a href="#" class="header__content-lang_passive">RU</a> | ENG</h5>
+              <h5 class="header__content-lang"><a href="pages/index_ru.html" class="header__content-lang_passive">RU</a> | ENG</h5>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
   </header>
 
   <!-- About -->
-  <section class="about">
+  <section class="about" id="about">
     <h2 class="about-title">About me</h2>
     <p class="about-txt">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>
     <p class="about-txt">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
@@ -78,7 +78,7 @@
   </section>
 
   <!-- Skills -->
-  <section class="skills">
+  <section class="skills" id="skills">
     <h2 class="skills-title">Skills</h2>
     <h4 class="skills-subtitle">I work in such programs as</h4>
     <div class="skills__box">
@@ -106,7 +106,7 @@
   </section>
 
   <!-- Portfolio -->
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <div class="portfolio__container">
       <h2 class="portfolio-title">Portfolio</h2>
       <div class="portfolio__item">
@@ -125,7 +125,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <h2 class="footer-title">Contacts</h2>
     <p class="footer-txt">Want to know more or just chat? <br> You are welcome!</p>
     <button class="footer-btn">Send message</button>
